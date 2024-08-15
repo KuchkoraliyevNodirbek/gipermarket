@@ -3,7 +3,7 @@ import { usegetCatalog } from "./service/usegetCatalog";
 
 export const Catalog = () => {
   const { data } = usegetCatalog();
-  console.log(data);
+  // console.log(data);
 
   if (!data) {
     return <div>Loading...</div>;

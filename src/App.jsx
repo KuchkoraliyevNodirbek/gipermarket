@@ -3,6 +3,7 @@ import { Navbar } from "./components/navbar";
 import { Banner } from "./components/banner/banner";
 import { Catalog } from "./components/catalog/catalog";
 import { Phones } from "./components/phones/phones";
+import { Ads } from "./components/ads";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       </div>
       <Catalog />
       <Phones />
+      <Ads />
     </div>
   );
 };
